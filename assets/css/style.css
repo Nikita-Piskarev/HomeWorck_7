@@ -1,0 +1,17 @@
+@import url(/assets/css/reset.css);
+@import url(./fonts.css);
+@import url(./header.css);
+*{
+    box-sizing: border-box;
+}
+:root {
+    --grey-color:#737373;
+    --what-color:#FFFFFF;
+    --black-color:#252B42;
+    --orangу-color:#FA4A0C;
+    font-size: 24px;
+}
+h1 {
+    font-size: 1.5rem;
+}
+
