@@ -1,17 +1,85 @@
 @import url(/assets/css/reset.css);
 @import url(./fonts.css);
 @import url(./header.css);
-*{
+@import url(./form-bella-olanje.css);
+
+
+* {
     box-sizing: border-box;
 }
+
 :root {
-    --grey-color:#737373;
-    --what-color:#FFFFFF;
-    --black-color:#252B42;
-    --orangу-color:#FA4A0C;
-    font-size: 24px;
-}
-h1 {
-    font-size: 1.5rem;
+    --grey-color: #737373;
+    --white-color: #FFFFFF;
+    --black-color: #252B42;
+    --orangу-color: #FA4A0C;
+    --bacground-color: #FAFAFA;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    font-family: Montserrat_700;
 }
 
+.title-h1 {
+    color: var(--black-color);
+    font-size: 1.8rem;
+    line-height: 2.6rem;
+
+}
+
+.title-h2 {
+    color: var(--black-color);
+    font-size: 2.5rem;
+    line-height: 3.5rem;
+
+
+}
+
+.title-h3 {
+    color: var(--grey-color);
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+.title-h3-orangy,
+.paragraph {
+    color: inherit;
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+}
+
+.title-h3-orangy {
+    color: var(--orangу-color);
+}
+
+.paragraph {
+    color: var(--grey-color);
+    font-family: Montserrat_500;
+}
+
+.main {
+    background-color: var(--bacground-color);
+}
+
+@media screen and (min-width: 570px) {
+    :root {
+        font-family: Poppins_700;
+    }
+
+    .title-h1 {
+        color: var(--white-color);
+        font-size: 2.2rem;
+        line-height: 4rem;
+    }
+
+    .title-h2 {
+        font-family: Montserrat_700;
+    }
+
+    .title-h3 {
+        color: var(--white-color);
+        font-family: Montserrat_500;
+    }
+}
+
+@media screen and (min-width: 1200px) {}

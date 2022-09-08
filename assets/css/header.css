@@ -2,7 +2,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 25px;
+    padding: 10px 15px;
 }
 
 .header_linck {
@@ -36,7 +36,7 @@
 
 @media screen and (min-width: 320px) {}
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 570px) {
     .header {
         padding: 20px 50px;
     }
