@@ -49,7 +49,7 @@
     margin-top: 50px;
 }
 
-@media screen and (min-width: 570px) {
+@media screen and (min-width: 576px) {
     .download {
         background-image: url(../images/Rectangle\ 47.png);
         background-position: center;

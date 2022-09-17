@@ -31,13 +31,13 @@
     min-width: 220px;
 }
 
-@media screen and (min-width: 570px) {
+@media screen and (min-width: 576px) {
     .create-explore__wrap-text {
         max-width: 450px;
     }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 992px) {
     .create {
         flex-direction: row-reverse;
         justify-content:center;

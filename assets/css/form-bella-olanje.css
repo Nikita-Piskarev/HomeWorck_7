@@ -59,7 +59,7 @@
 
 @media screen and (min-width: 320px) {}
 
-@media screen and (min-width: 570px) {
+@media screen and (min-width: 576px) {
     .form-bella-olanje {
         padding: 73px 35px 146px 35px;
         background-image: url(../images/Rectangle\ 48.png);

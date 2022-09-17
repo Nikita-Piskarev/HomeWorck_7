@@ -7,10 +7,7 @@
 @import url(./create.css);
 @import url(./explore.css);
 @import url(./download.css);
-    
-
-
-
+@import url(./footer.css);
 
 * {
     box-sizing: border-box;
@@ -66,7 +63,7 @@
     background-color: var(--bacground-color);
 }
 
-@media screen and (min-width: 570px) {
+@media screen and (min-width: 576px) {
     :root {
         font-family: Poppins_700;
     }
@@ -87,7 +84,7 @@
     }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 992px) {
     .title-h2-create-explore {
         font-size: 1.8rem;
         line-height: 2.5rem;
