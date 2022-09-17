@@ -33,15 +33,26 @@
 
 @media screen and (min-width: 576px) {
     .create-explore__wrap-text {
-        max-width: 450px;
+        width: 450px;
     }
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
     .create {
         flex-direction: row-reverse;
-        justify-content:center;
-        
+        justify-content: center;
+
+    }
+
+    .create__img-wrap {
+        min-width: 260px;
+        height: 540px;
+        overflow: hidden;
+    }
+
+    .create__img {
+        width: 500px;
+        margin: -55px -78px 0 0;
     }
 
     .margen-top-17 {
@@ -52,10 +63,18 @@
         margin-bottom: -100px;
         text-align: start;
     }
+
     .create__img-wrap {
         width: 420px;
     }
 
+    .create-explore__wrap-text {
+        width: 330px;
+    }
 }
 
-@media screen and (min-width: 1200px) {}
+@media screen and (min-width: 992px) {
+    .create-explore__wrap-text {
+        width: 450px;
+    }
+}

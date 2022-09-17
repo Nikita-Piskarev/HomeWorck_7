@@ -4,8 +4,7 @@
     align-items: center;
 }
 
-
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 768px) {
     .explore {
         display: flex;
         flex-direction: row;
@@ -13,8 +12,14 @@
         padding: 0 0 0 100px;
 
     }
-
     .margin-50 {
         margin-right: -50px;
     }
+}
+
+
+@media screen and (min-width: 992px) {
+    
+
+   
 }

@@ -25,6 +25,12 @@
     font-family: Montserrat_700;
 }
 
+body {
+    min-width: 320px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
 .title-h1 {
     color: var(--black-color);
     font-size: 1.8rem;
@@ -63,6 +69,8 @@
     background-color: var(--bacground-color);
 }
 
+
+
 @media screen and (min-width: 576px) {
     :root {
         font-family: Poppins_700;
@@ -84,12 +92,29 @@
     }
 }
 
+@media screen and (min-width: 768px) {
+    .title-h2-create-explore {
+        font-size: 1.3rem;
+        line-height: 2.2rem;
+    }
+
+    .title-h3-orangy,
+    .paragraph {
+        font-size: 0.7rem;
+        line-height: 1.2rem;
+    }
+}
+
 @media screen and (min-width: 992px) {
     .title-h2-create-explore {
         font-size: 1.8rem;
         line-height: 2.5rem;
     }
 }
+
+
+
+
 
 
 @media screen and (min-width: 1200px) {}
