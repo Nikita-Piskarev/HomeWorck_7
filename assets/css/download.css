@@ -1,0 +1,59 @@
+.download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 110px 24px;
+    background-color: var(--black-color);
+}
+
+.download__title {
+    color: var(--white-color);
+    font-size: 2rem;
+    line-height: 3.5rem;
+}
+
+.download__paragraph {
+    color: var(--white-color);
+    font-size: 1rem;
+    line-height: 2rem;
+    padding: 0 40px;
+    font-family:  Montserrat_500;
+}
+
+.download__btn {
+    padding: 16px 20px;
+    color: var(--white-color);
+    background-color:inherit;
+    border: 1px solid var(--white-color);
+    border-radius: 10px;
+    font-size: 1rem;
+    font-family: Montserrat_700;
+}
+
+.download__btn:hover {
+    background-color: var(--white-color);
+    color: var(--black-color);
+}
+.download__btn-orangy {
+    background-color: var(--orangу-color);
+    border-color: var(--orangу-color);
+    margin-right: 16px;
+}
+
+.download__btn-orangy:hover {
+    background-color: inherit;
+    color: var(--orangу-color);
+}
+
+.margin-top-50 {
+    margin-top: 50px;
+}
+
+@media screen and (min-width: 570px) {
+    .download {
+        background-image: url(../images/Rectangle\ 47.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
